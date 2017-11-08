@@ -1,4 +1,3 @@
 source 'https://rubygems.org'
-
-# Specify your gem's dependencies in esputnik-ruby.gemspec
+gem 'faraday', '~> 0.13.1'
 gemspec

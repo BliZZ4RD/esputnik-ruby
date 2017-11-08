@@ -1,8 +1,8 @@
 require "spec_helper"
 
-describe Esputnik::Ruby do
+describe Esputnik do
   it "has a version number" do
-    expect(Esputnik::Ruby::VERSION).not_to be nil
+    expect(Esputnik::VERSION).not_to be nil
   end
 
   it "does something useful" do

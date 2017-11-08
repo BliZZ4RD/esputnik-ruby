@@ -1,16 +1,16 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'esputnik/ruby/version'
+require 'esputnik/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "esputnik-ruby"
-  spec.version       = Esputnik::Ruby::VERSION
+  spec.name          = "esputnik"
+  spec.version       = Esputnik::VERSION
   spec.authors       = ["Stas Kravtsov"]
   spec.email         = ["s.kravtsov@superdeal.com.ua"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
+  spec.summary       = ""
+  spec.description   = ""
   spec.homepage      = "TODO: Put your gem's website or public repo URL here."
   spec.license       = "MIT"
 
