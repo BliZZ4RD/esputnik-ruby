@@ -4,10 +4,10 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'esputnik/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "esputnik"
+  spec.name          = "esputnik-ruby"
   spec.version       = Esputnik::VERSION
   spec.authors       = ["Stas Kravtsov"]
-  spec.email         = ["s.kravtsov@superdeal.com.ua"]
+  spec.email         = ["my-blizz4rd@hotmail.com"]
 
   spec.summary       = ""
   spec.description   = ""

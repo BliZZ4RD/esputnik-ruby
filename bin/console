@@ -10,5 +10,9 @@ require "esputnik-ruby"
 # require "pry"
 # Pry.start
 
+def reload
+  load "lib/esputnik-ruby.rb"
+end
+
 require "irb"
 IRB.start
